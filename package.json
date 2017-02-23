@@ -3,7 +3,8 @@
   "version": "6.6.6",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ""
   },
   "author": "Samuel Durfey",
   "license": "ISC",
@@ -26,6 +27,13 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.11.1",
+    "gulp-uglify": "^1.5.4",
+    "gulp-util": "^3.0.8",
     "moment": "^2.13.0"
   },
   "description": "grams of banana"

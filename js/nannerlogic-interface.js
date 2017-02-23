@@ -134,7 +134,7 @@ $(document).ready(function(){
     testArrayAll = testArrayRows.concat(testArrayCols);
     var enteredWord = '';
 
-    if (lettersConnected && lettersUsed) {
+    if (lettersConnected /*&& lettersUsed*/) {
       $.get("./../../SOWPODS.txt").then(function(response) {
         var dict = response.split("\n");
         for(var i = 0; i < testArrayAll.length; i++){
